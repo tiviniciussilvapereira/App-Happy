@@ -20,8 +20,6 @@ interface Orphanage{
 function OrphanagesMap(){
     const [orphanages, setOrphanages] = useState<Orphanage[]>([]);
 
-    console.log(orphanages);
-
     //Chamada api
     //Executa uma função quando alguma das variaveis do array mudarem 
     useEffect(() => {
